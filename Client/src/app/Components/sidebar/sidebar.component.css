@@ -1,0 +1,31 @@
+.sidebar__main {
+    display: flex;
+    width: auto;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 50px;
+    box-shadow: 2px 0px 0px whitesmoke; 
+    
+}
+.sidebar__main__one {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.sidebar__main__one > i {
+    margin: 40px 0px;
+}
+
+.sidebar__main__two {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.sidebar__main__two > i {
+    margin: 50px 0px;
+}
+
+

@@ -1,0 +1,35 @@
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    align-items: center;
+    box-shadow: 1px 2px 1px whitesmoke;
+}
+
+
+button {
+    width: 100px;
+    height: 35px;
+    margin: 0px 20px;
+    border: none;
+    background-color: #CC4E4E;
+    color: whitesmoke;
+}
+
+.navbar__links {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__links > a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.navbar__links > a:hover {
+    color: #CC4E4E;  
+}

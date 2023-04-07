@@ -1,0 +1,33 @@
+.aboutus__section {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 120px;
+    height: 100vh;
+    color: #c07956;
+}
+
+.aboutus__imgContainer {
+    margin: auto;
+}
+
+.aboutus__imgContainer > img {
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.aboutus__content {
+   width: 50%;
+   margin: auto;
+   padding: 0px 100px;
+    
+}
+
+.aboutus__content > h1 {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.aboutus__content > h2 {
+    font-size: 25px;
+}

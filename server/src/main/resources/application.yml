@@ -1,0 +1,10 @@
+port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/PetAdoptionService
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
