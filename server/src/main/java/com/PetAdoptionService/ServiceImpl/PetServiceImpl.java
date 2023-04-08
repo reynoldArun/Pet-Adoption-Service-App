@@ -34,10 +34,13 @@ public class PetServiceImpl implements PetService {
     @Override
     public Pet CreatePet(PetDao petDao) {
         Pet newPet = new Pet();
+        newPet.setPetName(petDao.getPetName());
         newPet.setCategory(petDao.getCategory());
         newPet.setSex(petDao.getSex());
         newPet.setBreed(petDao.getBreed());
         newPet.setAge(petDao.getAge());
+        newPet.setImage(petDao.getImage());
+        newPet.setAbout(petDao.getAbout());
         newPet.setAvailable(true);
         return petRepo.save(newPet);
     }

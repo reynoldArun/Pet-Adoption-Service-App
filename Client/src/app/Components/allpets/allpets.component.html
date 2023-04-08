@@ -1,3 +1,22 @@
 <app-navbar></app-navbar>
-<section></section>
+<section class="container">
+  <div class="card" *ngFor="let pet of pets">
+    <div class="card__img">
+      <img src="{{pet.image}}" alt="" />
+      <h1>{{pet.petName}}</h1>
+      <hr />
+      <h2>{{pet.breed}}</h2>
+    </div>
+    <div class="card__info">
+      <h3>All About {{pet.petName}} :</h3>
+      <h4>
+       {{pet.about}}
+      </h4>
+        <div class="card__info__bottom">
+            <button><i class="fa-solid fa-dog"></i></button>
+            <h2>Full Adoption Profile  <i class="fa-solid fa-caret-right"></i></h2>
+        </div>
+    </div>
+  </div>
+</section>
 <app-footer></app-footer>
